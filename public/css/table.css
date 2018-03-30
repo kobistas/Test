@@ -1,0 +1,147 @@
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* table-layout: fixed; */
+}
+table caption {
+  /* font-size: 1.5em; */
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: 5px;
+  text-align: center;
+}
+table th {
+  /* font-size: .85em; */
+  letter-spacing: .1em;
+  color:white;
+  background-color: #1c1d22;
+  /* text-transform: uppercase; */
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    /* font-size: 1.3em; */
+  }
+  table thead {
+
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    /* font-size: .8em; */
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+/* TABLE RESULTS */
+
+/*
+table {
+
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: solid 1px #ddd9d9;
+  box-shadow:0px 1px 1px #acacac;
+  margin-left: 3px;
+  margin-right: 3px;
+
+
+
+}
+
+th, td {
+
+  padding: 5px;
+  border: solid 1px #ddd9d9;
+
+}
+th {
+  padding-left: 35px;
+  text-align: left;
+  background-color: #2c292a;
+  color: #7a7074;
+  font-size: 13px;
+  border: solid 1px #474346;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+table tr td {
+  text-align: left;
+}
+table tr td + td {
+  text-align: center;
+}
+
+table tr:nth-child(even){
+  background-color: #e5e3e3;
+}
+
+td .calendar-table i {
+  text-align: center;
+  margin: 0 auto;
+}
+
+table a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+
+}
+
+td a {
+  text-decoration: underline;
+  color: grey;
+  font-weight: bold;
+}
+
+td:hover a{
+  color: #4386fc;
+
+
+} */
